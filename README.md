@@ -2,72 +2,71 @@
 
 ## Overview
 
-This project presents an end-to-end financial performance analysis focused on understanding **revenue, expenses, profit, and profit margins** across quarterly periods.
-The goal is to transform raw financial data into **clear, stakeholder-ready insights** that support better financial decision-making.
+This project demonstrates a **business-focused financial analysis** using SQL and Excel to understand how **revenue, expenses, profit, and profit margins** change across quarterly periods.
 
-The analysis mirrors how a data analyst would approach real-world business data: from data preparation and SQL querying to insight generation and visualisation.
-
----
-
-## Business Questions Addressed
-
-* How does revenue, expense, and profit trend across quarters?
-* Which quarters deliver the strongest profit margins?
-* Are expenses growing proportionally with revenue?
-* What high-level insights can stakeholders quickly act on?
+The aim is to show how raw financial data can be transformed into **clear insights and visuals** that support decision-making by stakeholders.
 
 ---
 
-## Dataset Description
+## What This Project Shows
 
-The project uses two primary datasets:
-
-* **Income data**: captures actual revenue values by date
-* **Expense data**: captures actual expense values by date
-
-Both datasets are structured at a transactional level and aggregated for quarterly analysis.
+* How financial data is analysed using **SQL**
+* How insights are presented clearly using **Excel**
+* How numbers are converted into **charts, tables, and conclusions**
+* How an analyst communicates results in a **stakeholder-friendly way**
 
 ---
 
-## Tools & Technologies
+## Key Business Questions Answered
 
-* **SQL (Azure SQL / T-SQL)** – data aggregation, joins, and calculations
-* **Excel** – analysis validation and dashboard-style visualisations
-* **GitHub** – version control and project documentation
+* How do revenue and expenses trend across quarters?
+* Which quarters perform better in terms of profit and margin?
+* Are costs controlled relative to revenue growth?
+* What high-level insights matter most to decision-makers?
 
 ---
 
-## Methodology
+## Data Used
 
-1. Imported raw financial datasets into a SQL database
-2. Cleaned and standardised date fields for time-based analysis
-3. Aggregated revenue and expenses at a **quarterly level**
-4. Calculated key metrics:
+The analysis is based on two financial datasets:
+
+* **Income data** – records actual revenue by date
+* **Expense data** – records actual expenses by date
+
+The data is aggregated at a **quarterly level** to make trends easy to understand.
+
+---
+
+## Tools Used
+
+* **SQL (Azure SQL / T-SQL)** – to calculate financial metrics
+* **Excel** – to create tables, charts, and insights
+* **GitHub** – to document and share the analysis
+
+---
+
+## How the Analysis Was Done
+
+1. Financial data was loaded into a SQL database
+2. Revenue and expenses were grouped by **quarter**
+3. Key metrics were calculated:
 
    * Total Revenue
    * Total Expenses
    * Profit
    * Profit Margin (%)
-5. Validated outputs in Excel and visualised trends for clarity
+4. Results were exported to Excel
+5. Charts and summaries were created for easy interpretation
 
 ---
 
-## Key SQL Logic (High Level)
+## Key Insights (Summary)
 
-* Used `DATEPART(QUARTER, Date)` to group financial data by quarter
-* Applied `SUM()` aggregations for revenue and expenses
-* Derived profit and profit margin using calculated fields
-* Ensured numerical accuracy using decimal-based calculations
+* Profit margins remain relatively stable across quarters
+* Revenue changes directly influence profit, but expenses stay controlled
+* Overall financial performance shows consistency rather than volatility
 
----
-
-## Insights Generated
-
-* Profit margins remain relatively stable across quarters, indicating controlled cost management
-* Revenue fluctuations have a direct but manageable impact on profit
-* Expense trends suggest operational consistency rather than volatility
-
-These insights can help stakeholders assess **financial health**, **cost discipline**, and **quarterly performance consistency**.
+These insights help stakeholders quickly assess **financial health and cost management**.
 
 ---
 
@@ -76,20 +75,27 @@ These insights can help stakeholders assess **financial health**, **cost discipl
 ```
 financial-performance-analysis/
 │
-├── data/          # Raw or cleaned datasets
-├── sql/           # SQL queries used for analysis
-├── dashboard/     # Excel dashboards or charts
-├── insights/      # Summary of findings
+├── financial_analysis.sql
+│   # SQL queries used to calculate quarterly revenue,
+│   # expenses, profit, and profit margins
+│
+├── financial_performance_dashboard.xlsx
+│   # Excel file containing:
+│   # - Financial data
+│   # - Summary tables
+│   # - Charts and visualisations
+│   # - Key insights for stakeholders
+│
 └── README.md
 ```
 
 ---
 
-## How to Use This Project
+## How to Review This Project
 
-1. Review the SQL queries to understand data modelling and calculations
-2. Explore the Excel visuals to see how insights are communicated
-3. Use this project as a reference for building stakeholder-focused financial analyses
+* Open the **SQL file** to understand how metrics were calculated
+* Open the **Excel file** to view tables, charts, and insights
+* Read this README to understand the business context and conclusions
 
 ---
 
@@ -102,4 +108,4 @@ Data Analyst | SQL | Excel | Business Analytics
 
 ## Notes
 
-This project is designed to reflect **real-world financial analysis expectations**, focusing on clarity, accuracy, and business relevance rather than purely technical complexity.
+This project is designed to reflect **real-world financial analysis**, focusing on clarity, accuracy, and business relevance rather than technical complexity.
