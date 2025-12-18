@@ -46,7 +46,6 @@ For clarity and comparability, data is **aggregated at a quarterly level**.
 
 * **SQL (Azure SQL / T-SQL)** – data preparation, aggregation, and calculations
 * **Excel** – tables, charts, and insight summaries
-* **GitHub** – documentation and version control
 
 ---
 
@@ -108,6 +107,8 @@ financial-performance-analysis/
 
 **Harish Thota**
 Data Analyst | SQL | Excel | Business Analytics
+🔗 [LinkedIn](https://www.linkedin.com/in/harish-thota/)
+
 
 ---
 
