@@ -4,52 +4,52 @@
 
 ---
 
-## 🔍 Project Overview
+## 🔍 Executive Overview
 
-This project showcases a **real-world financial performance analysis** using **SQL and Excel** to evaluate how **revenue, expenses, profit, and profit margins** evolve across quarterly periods.
+This project demonstrates an **end-to-end financial performance analysis** using SQL and Excel, focused on evaluating **revenue, expenses, profit, and profit margins across quarterly periods**.
 
-The focus is not just on calculations, but on **turning financial data into insights that decision-makers can understand and act on**.
-
----
-
-## 🎯 Objective
-
-To demonstrate how a data analyst:
-
-* structures financial data,
-* applies SQL logic for accurate calculations, and
-* presents results in a **clear, stakeholder-ready format**.
+The emphasis is not only on accurate calculations, but on **translating financial data into insights that decision-makers can quickly understand and act on**.
 
 ---
 
-## ❓ Business Questions Answered
+## 🎯 Business Objective
 
-* How does **revenue vs expenses** change quarter-by-quarter?
-* Which quarters generate **stronger profits and margins**?
-* Are expenses growing **in line with revenue**?
-* What high-level signals indicate **financial stability or risk**?
+To showcase how a data analyst:
+
+* Structures raw financial data
+* Applies SQL logic to compute reliable financial metrics
+* Presents results in a **stakeholder-ready, decision-focused format**
+
+---
+
+## ❓ Key Business Questions
+
+* How do **revenue and expenses** trend quarter-by-quarter?
+* Which quarters deliver **stronger profitability and margins**?
+* Are expenses being controlled relative to revenue growth?
+* What signals indicate **financial stability vs potential risk**?
 
 ---
 
 ## 🗂 Data Overview
 
-The analysis is based on two financial datasets:
+The analysis is built on two datasets:
 
-* **Income data** – actual revenue values recorded by date
-* **Expense data** – actual expense values recorded by date
+* **Income Data** – Actual revenue values recorded by date
+* **Expense Data** – Actual expense values recorded by date
 
-For clarity and comparability, data is **aggregated at a quarterly level**.
+For clarity and comparability, all values are **aggregated at a quarterly level**.
 
 ---
 
 ## 🛠 Tools & Technologies
 
 * **SQL (Azure SQL / T-SQL)** – data preparation, aggregation, and calculations
-* **Excel** – tables, charts, and insight summaries
+* **Excel** – summary tables, charts, and insight communication
 
 ---
 
-## ⚙️ Analysis Approach
+## ⚙️ Analysis Methodology
 
 1. Loaded raw income and expense data into a SQL database
 2. Standardised date fields for time-based analysis
@@ -64,13 +64,13 @@ For clarity and comparability, data is **aggregated at a quarterly level**.
 
 ---
 
-## 📈 Key Insights (Executive Summary)
+## 📈 Executive Insights
 
-* **Profit margins remain stable** across quarters, indicating controlled cost management
-* **Revenue fluctuations directly influence profit**, while expenses stay relatively consistent
-* Overall trends suggest **financial consistency rather than volatility**
+* **Profit margins remain stable across quarters**, indicating disciplined cost control
+* **Revenue fluctuations directly impact profit**, while expenses remain relatively consistent
+* Overall trends reflect **financial consistency rather than volatility**
 
-These insights help stakeholders quickly assess **financial health and cost discipline**.
+These insights enable stakeholders to quickly assess **financial health and cost management effectiveness**.
 
 ---
 
@@ -79,16 +79,16 @@ These insights help stakeholders quickly assess **financial health and cost disc
 ```
 financial-performance-analysis/
 │
-├── financial_analysis.sql
-│   # SQL queries used to calculate quarterly revenue,
-│   # expenses, profit, and profit margins
+├── Financial_analysis.sql
+│   └─ SQL queries used to calculate quarterly
+│      revenue, expenses, profit, and profit margins
 │
-├── financial_performance_dashboard.xlsx
-│   # Excel file containing:
-│   # - Financial data
-│   # - Summary tables
-│   # - Charts & visualisations
-│   # - Business insights for stakeholders
+├── Financial_performance_dashboard.xlsx
+│   └─ Excel file containing:
+│      • Cleaned financial data
+│      • Summary tables
+│      • Charts & visualisations
+│      • Stakeholder-focused insights
 │
 └── README.md
 ```
@@ -97,9 +97,9 @@ financial-performance-analysis/
 
 ## 👀 How to Review This Project
 
-* **Start with Excel** to see insights and charts as a stakeholder would
-* Review the **SQL file** to understand how metrics were derived
-* Use this README to follow the logic from **data → analysis → insight**
+1. **Start with the Excel dashboard** to view insights as a stakeholder would
+2. Review the **SQL file** to understand how metrics were derived
+3. Use this README to follow the flow from **data → analysis → insight**
 
 ---
 
@@ -107,11 +107,10 @@ financial-performance-analysis/
 
 **Harish Thota**
 Data Analyst | SQL | Excel | Business Analytics
-🔗 [LinkedIn](https://www.linkedin.com/in/harish-thota/)
-
+🔗 [https://www.linkedin.com/in/harish-thota/](https://www.linkedin.com/in/harish-thota/)
 
 ---
 
 ## 📝 Final Note
 
-This project reflects **how financial analysis is performed in real organisations** — prioritising clarity, accuracy, and business relevance over unnecessary technical complexity.
+This project reflects **real-world financial analysis practices**, prioritising clarity, accuracy, and business relevance over unnecessary technical complexity.
